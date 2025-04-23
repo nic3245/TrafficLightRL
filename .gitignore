@@ -1,3 +1,15 @@
-./models*/*
-./__pycache__
-./results/*
+# Ignore folders starting with "models"
+models*/
+
+# Ignore folders starting with "results"
+results*/
+
+# Ignore Python cache folders and files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all CPython compiled files
+*.so
+*.o
+*.pyd
